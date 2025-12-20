@@ -54,6 +54,11 @@ public class zad5 {
         System.out.println("19" + max_rok);
 
         //Zadanie d)
-
+        int[] wagi = {1, 3, 7, 9, 1, 3, 7, 9, 1, 3};
+        for(String p : dane)
+        {
+            pesel = p.chars().map(c -> c - '0').toArray();
+            System.out.println(pesel);
+        }
     }
 }
