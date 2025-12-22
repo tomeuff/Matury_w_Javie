@@ -1,6 +1,4 @@
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.*;
 import java.util.*;
 
 class Uczen
@@ -76,7 +74,7 @@ class PrzedmiotSrednia
 }
 
 public class zad6 {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws IOException {
         ArrayList<Uczen> uczniowie = new ArrayList<>();
         ArrayList<Ocena> oceny = new ArrayList<>();
         ArrayList<Przedmiot> przedmioty = new ArrayList<>();
@@ -84,6 +82,7 @@ public class zad6 {
         Scanner sc_uczniowie = new Scanner(new File("C:\\Users\\Admin\\IdeaProjects\\Matury_w_Javie\\Maj2010\\Dane\\uczniowie.txt"));
         Scanner sc_oceny = new Scanner(new File("C:\\Users\\Admin\\IdeaProjects\\Matury_w_Javie\\Maj2010\\Dane\\oceny.txt"));
         Scanner sc_przedmioty = new Scanner(new File("C:\\Users\\Admin\\IdeaProjects\\Matury_w_Javie\\Maj2010\\Dane\\przedmioty.txt"));
+        BufferedWriter bw_6 = new BufferedWriter(new FileWriter("C:\\Users\\Admin\\IdeaProjects\\Matury_w_Javie\\Maj2010\\wyniki\\odp_6.txt"));
 
         sc_uczniowie.nextLine();
         while(sc_uczniowie.hasNext())
@@ -117,19 +116,24 @@ public class zad6 {
             }
         }
 
-        System.out.println(ile_poza_rejonem);
+        bw_6.write(String.format("a)\n%d\n\n", ile_poza_rejonem));
 
         //Zadanie b)
+        bw_6.write("b)\n");
         int id_jana_augustyniaka = uczniowie.stream().filter(c -> c.imie.equals("Jan") && c.nazwisko.equals("Augustyniak")).map(c -> c.idUcznia).findFirst().orElse(null);
         int id_jezyka_polskiego = przedmioty.stream().filter(c -> c.nazwaPrzedmiotu.equals("polski")).map(c -> c.idPrzedmiotu).findFirst().orElse(null);
         int[] oceny_ja_jp = oceny.stream().filter(c -> c.idUcznia == id_jana_augustyniaka && c.idPrzedmiotu == id_jezyka_polskiego).mapToInt(c -> c.ocena).toArray();
 
         for(int o : oceny_ja_jp)
         {
-            System.out.println(o);
+            bw_6.write(String.format("%d\n", o));
         }
 
+        bw_6.write("\n");
+
         //Zadanie c)
+        bw_6.write("c)\n");
+
         TreeMap<String, Para> kkm = new TreeMap<>();
 
         for(Uczen u : uczniowie)
@@ -160,10 +164,14 @@ public class zad6 {
 
         for(Map.Entry<String, Para> p : kkm.entrySet())
         {
-            System.out.printf("%s %d %d\n", p.getKey(), p.getValue().lKobiet, p.getValue().lMezczyzn);
+            bw_6.write(String.format("%s %d %d\n", p.getKey(), p.getValue().lKobiet, p.getValue().lMezczyzn));
         }
 
+        bw_6.write("\n");
+
         //Zadanie d)
+        bw_6.write("d)\n");
+
         ArrayList<PrzedmiotSrednia> ps = new ArrayList<>();
         for(Przedmiot p : przedmioty)
         {
@@ -191,10 +199,14 @@ public class zad6 {
 
         for(PrzedmiotSrednia p : ps)
         {
-            System.out.printf("%s %f\n", p.przedmiot, p.srednia);
+            bw_6.write(String.format("%s %f\n", p.przedmiot, p.srednia));
         }
 
+        bw_6.write("\n");
+
         //Zadanie e)
+        bw_6.write("e)\n");
+
         for(Uczen u : uczniowie)
         {
             if(u.idKlasy.equals("2c"))
@@ -207,15 +219,18 @@ public class zad6 {
                         {
                             if(o.data.startsWith("2009-04") && o.ocena == 1)
                             {
-                                System.out.printf("%s %s %s\n", u.imie, u.nazwisko, p.nazwaPrzedmiotu);
+                                bw_6.write(String.format("%s %s %s\n", u.imie, u.nazwisko, p.nazwaPrzedmiotu));
                             }
                         }
                     }
                 }
             }
         }
+        bw_6.write("\n");
 
         //Zadanie f)
+        bw_6.write("f)\n");
+
         Float[] srednie = new Float[uczniowie.size()];
 
         for(Uczen u : uczniowie)
@@ -235,6 +250,8 @@ public class zad6 {
 
         float max_srednia = Collections.max(Arrays.asList(srednie));
         int ktory_uczen = Arrays.asList(srednie).indexOf(max_srednia);
-        System.out.printf("%s %s %s %f\n", uczniowie.get(ktory_uczen).imie, uczniowie.get(ktory_uczen).nazwisko, uczniowie.get(ktory_uczen).idKlasy, max_srednia);
+        bw_6.write(String.format("%s %s %s %f\n", uczniowie.get(ktory_uczen).imie, uczniowie.get(ktory_uczen).nazwisko, uczniowie.get(ktory_uczen).idKlasy, max_srednia));
+
+        bw_6.close();
     }
 }
