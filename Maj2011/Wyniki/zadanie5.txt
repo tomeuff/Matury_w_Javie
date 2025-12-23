@@ -1,0 +1,25 @@
+a)
+Liczba samic: 508
+Liczba samców: 492
+
+b)
+Antczak Edyta
+Bielawska Dagmara
+Bugajno Kamila
+Gabowski Pawel
+Jaworski Eugeniusz
+Kaliszewski Kacper
+Kowal Marcin
+Kowalski Ryszard
+Kwiatkowski Marcin
+Szargawinska Danuta
+Szczupak Anna
+Tobera Krystyna
+Wroclawski Rafal
+Wysocka Maria
+
+c)
+Tobera Krystyna 41
+
+d)
+103
