@@ -1,0 +1,4 @@
+Numery wierszy:
+999
+Liczba par:
+1

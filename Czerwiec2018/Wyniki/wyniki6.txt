@@ -1,0 +1,31 @@
+6.1.
+Aabacka Nela WI1150 2 160.0
+Zgbacka Aaricia WI1126 11 880.0
+
+6.2.
+B 100
+C 48
+D 53
+
+6.3.
+Ramzes Hcbacki 5
+
+6.4.
+B Manipulatowo 31
+B Wielka Wola 25
+C Manipulatowo 14
+C Wielka Wola 11
+D Wielka Wola 7
+B Piarowa 16
+C Piarowa 18
+C Nieszczerzyn 9
+D Nieszczerzyn 4
+D Piarowa 8
+D Manipulatowo 11
+D Aniolkowo 7
+B Aniolkowo 12
+B Nieszczerzyn 17
+C Aniolkowo 8
+
+6.5.
+72

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Czerwiec2018/Czerwiec2018.iml" filepath="$PROJECT_DIR$/Czerwiec2018/Czerwiec2018.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maj 2013/Maj 2013.iml" filepath="$PROJECT_DIR$/Maj 2013/Maj 2013.iml" />
       <module fileurl="file://$PROJECT_DIR$/Maj2010/Maj2010.iml" filepath="$PROJECT_DIR$/Maj2010/Maj2010.iml" />
       <module fileurl="file://$PROJECT_DIR$/Maj2011/Maj2011.iml" filepath="$PROJECT_DIR$/Maj2011/Maj2011.iml" />
       <module fileurl="file://$PROJECT_DIR$/Maj2012/Maj2012.iml" filepath="$PROJECT_DIR$/Maj2012/Maj2012.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maj2025/Maj2025.iml" filepath="$PROJECT_DIR$/Maj2025/Maj2025.iml" />
       <module fileurl="file://$PROJECT_DIR$/Matury_w_Javie.iml" filepath="$PROJECT_DIR$/Matury_w_Javie.iml" />
     </modules>
   </component>
