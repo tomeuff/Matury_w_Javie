@@ -5,41 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2e0c852-78b8-473a-a07d-95379bbf4d14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Czerwiec2018/Czerwiec2018.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2018/Dane/ceny_za_dobe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2018/Dane/dane1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2018/Dane/dane2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2018/Dane/klienci.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2018/Dane/pomiary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2018/Dane/przyklad1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2018/Dane/przyklad2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2018/Dane/samochody.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2018/Dane/wypozyczenia.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2018/src/zad4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2018/src/zad5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2018/src/zad6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj 2013/Dane/dane.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj 2013/Dane/filmy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj 2013/Dane/klienci.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj 2013/Dane/wypozyczenia.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj 2013/Maj 2013.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj 2013/src/zad4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj 2013/src/zad5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj 2013/src/zad6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj2025/Dane/dron.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj2025/Dane/dron_przyklad.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj2025/Dane/laziki.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj2025/Dane/martianeum.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj2025/Dane/obszary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj2025/Dane/pomiary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj2025/Dane/symbole.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj2025/Dane/symbole_przyklad.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj2025/Maj2025.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj2025/src/zad1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj2025/src/zad2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj2025/src/zad3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj2025/src/zad6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maj2025/src/zad7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maj2019/Dane/liczby.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maj2019/Dane/marki.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maj2019/Dane/perfumy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maj2019/Dane/pogoda.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maj2019/Dane/przyklad.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maj2019/Dane/sklad.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maj2019/Maj2019.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maj2019/src/zad1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maj2019/src/zad4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maj2019/src/zad5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maj2019/src/zad6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -79,32 +55,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.zad1.executor": "Run",
-    "Application.zad2.executor": "Run",
-    "Application.zad3.executor": "Run",
-    "Application.zad4.executor": "Run",
-    "Application.zad5.executor": "Run",
-    "Application.zad6.executor": "Run",
-    "Application.zad7.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/Matury_w_Javie/Czerwiec2018/Dane",
-    "onboarding.tips.debug.path": "C:/Users/Admin/IdeaProjects/Matury_w_Javie/Czerwiec2018/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.zad1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.zad2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.zad3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.zad4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.zad5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.zad6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.zad7.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/IdeaProjects/Matury_w_Javie/Maj2019/Dane&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Admin/IdeaProjects/Matury_w_Javie/Maj2019/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\IdeaProjects\Matury_w_Javie\Maj2019\Dane" />
       <recent name="C:\Users\Admin\IdeaProjects\Matury_w_Javie\Czerwiec2018\Dane" />
       <recent name="C:\Users\Admin\IdeaProjects\Matury_w_Javie\Maj2025\Dane" />
       <recent name="C:\Users\Admin\IdeaProjects\Matury_w_Javie\Maj 2013\Dane" />
       <recent name="C:\Users\Admin\IdeaProjects\Matury_w_Javie\Maj2012\Dane" />
-      <recent name="C:\Users\Admin\IdeaProjects\Matury_w_Javie\Maj2011\Dane" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -145,6 +121,11 @@
           <url>file://$PROJECT_DIR$/Czerwiec2018/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Maj2019/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
