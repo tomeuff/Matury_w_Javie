@@ -5,23 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2e0c852-78b8-473a-a07d-95379bbf4d14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Czerwiec2019/Czerwiec2019.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2019/Dane/agenci.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2019/Dane/klienci.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2019/Dane/liczby.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2019/Dane/liczby_przyklad.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2019/Dane/oferty.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2019/Dane/pierwsze.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2019/Dane/pierwsze_przyklad.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2019/Dane/pogoda.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2019/Dane/zainteresowanie.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2019/Wyniki/wykres.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2019/Wyniki/wykres5_2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2019/src/zad2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2019/src/zad4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2019/src/zad5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Czerwiec2019/src/zad6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Czerwiec2020/Czerwiec2020.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Czerwiec2020/Dane/jezyki.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Czerwiec2020/Dane/odp_przyklad.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Czerwiec2020/Dane/panstwa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Czerwiec2020/Dane/pary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Czerwiec2020/Dane/przyklad.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Czerwiec2020/Dane/statek.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Czerwiec2020/Dane/uzytkownicy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Czerwiec2020/src/zad1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Czerwiec2020/src/zad4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -75,17 +68,17 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/Matury_w_Javie/Czerwiec2019/Dane",
-    "onboarding.tips.debug.path": "C:/Users/Admin/IdeaProjects/Matury_w_Javie/Czerwiec2019/src/Main.java"
+    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/Matury_w_Javie/Czerwiec2020/Dane",
+    "onboarding.tips.debug.path": "C:/Users/Admin/IdeaProjects/Matury_w_Javie/Czerwiec2020/src/Main.java"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\IdeaProjects\Matury_w_Javie\Czerwiec2020\Dane" />
       <recent name="C:\Users\Admin\IdeaProjects\Matury_w_Javie\Czerwiec2019\Dane" />
       <recent name="C:\Users\Admin\IdeaProjects\Matury_w_Javie\Czerwiec2019\Wyniki" />
       <recent name="C:\Users\Admin\IdeaProjects\Matury_w_Javie\Maj2019\Dane" />
       <recent name="C:\Users\Admin\IdeaProjects\Matury_w_Javie\Czerwiec2018\Dane" />
-      <recent name="C:\Users\Admin\IdeaProjects\Matury_w_Javie\Maj2025\Dane" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\IdeaProjects\Matury_w_Javie\Czerwiec2019\Dane" />
@@ -139,6 +132,11 @@
           <url>file://$PROJECT_DIR$/Czerwiec2019/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Czerwiec2020/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
